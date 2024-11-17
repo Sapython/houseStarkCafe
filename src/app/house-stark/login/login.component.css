@@ -1,0 +1,264 @@
+section {
+    /* background-image: url("./assets/background.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* height: 100%; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .bg {
+    background: #212425;
+    height: 60%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .fk {
+    background-color: transparent;
+  }
+  .heading {
+    /* background-color: red; */
+    /* width: 100%; */
+    margin-top: -7rem;
+    text-align: center;
+  }
+  /* .fa-utensils{
+      font-size: 1.7rem;
+  color: white;
+  } */
+  .heading p {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    color: white;
+    font-family: "Game of Thrones";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  .authentication {
+    background: black;
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    padding: 2rem 2.5rem;
+  }
+  .btn {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .signUp {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+  }
+  .btn:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.02);
+  }
+  .btn-btn {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+  }
+  /* .authentication button i{
+      font-size: 1.3rem;
+      margin: 0 0.4rem;
+  } */
+  
+  .google {
+    padding: 10px 8px;
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .google i {
+    margin-top: 5px;
+    color: #ffffff;
+  }
+  .apple {
+    
+    padding: 10px 8px;
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .apple i {
+    margin-top: 5px;
+    color: #ffffff;
+  }
+  
+  .authentication p {
+    font-family: "SF UI Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0.5rem 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  @media (max-width: 820px) {
+  .heading1{
+      display: none;
+  
+  }
+  #bgmain{
+    display: none;
+  }
+  }
+  
+  /* --------------DESKTOP VIEW--------------- */
+  
+  @media (min-width: 820px) {
+    
+    .bgmain{
+  position: fixed;
+  z-index: 2;
+  }
+  .main-container{
+    z-index: 1;
+   
+    position: relative;
+    bottom: 797px;
+    
+    }
+    .bg {
+      width: 0;
+      display: none !important;
+    }
+    .heading {
+      display: none;
+    }
+    
+    .heading1 {
+      margin-top: -7rem;
+      text-align: center;
+      border: none;
+    }
+    .heading1 p {
+      font-family: "Game of Thrones";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 53px;
+      text-align: center;
+      letter-spacing: 0.16em;
+      margin-bottom: 50px;
+    }
+    .heading1 .fk{
+      width: 4%;
+      margin-bottom: 10px;
+    }
+    .authentication {
+     
+      /* border: 1px solid red; */
+      padding: 20em;
+      background-color: rgb(59, 54, 54);
+      opacity: 1;
+      
+  background: none;
+     
+    }
+    .signUp{
+      display: flex;
+      border: none;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn{
+       margin-top: 30px; 
+      width: 40%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    }
+    .google{
+      background-color: transparent;
+      width: 125%;
+      padding: 10px 8px;
+      border-bottom: 1px solid #585858;
+      display: flex;
+      justify-content: space-between;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+  
+    }
+    .ggl{
+      border-top: 1px solid #585858;
+    }
+    .cont{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-btn{
+      background-color: transparent;
+      font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+    }
+    .apple{
+      background-color: transparent;
+      width: 125%;
+      padding: 10px 8px;
+      border-bottom: 1px solid #585858;
+      display: flex;
+      justify-content: space-between;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+    }
+    .authentication p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+      margin: 0.5rem 0;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+    .login-btn{
+      cursor: pointer;
+    }
+  }
+  
+  

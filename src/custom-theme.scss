@@ -1,0 +1,61 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$HouseStark-primary: mat.define-palette(mat.$indigo-palette);
+$HouseStark-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$HouseStark-warn: mat.define-palette(mat.$red-palette);
+
+$fbms-palette: (
+  50: #524339,
+  100: #f6c4bc,
+  200: #ef9d8f,
+  300: #ea7c69,
+  400: #e34f36,
+  500: #c9361c,
+  600: #9d2a16,
+  700: #701e10,
+  800: #431209,
+  900: #ff2626,
+  contrast: (
+    50: #000,
+    100: #000,
+    200: #fff,
+    300: #fff,
+    400: #fff,
+    500: #fff,
+    600: #fff,
+    700: #fff,
+    800: #fff,
+    900: #fff,
+  ),
+);
+$FBMS-primary: mat.define-palette($fbms-palette, 50);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$HouseStark-theme: mat.define-light-theme((
+  color: (
+    primary: $FBMS-primary,
+    accent: $FBMS-primary,
+    warn: $HouseStark-warn,
+  )
+));
+@include mat.all-component-themes($HouseStark-theme);
+@include mat.radio-color($HouseStark-theme);
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+

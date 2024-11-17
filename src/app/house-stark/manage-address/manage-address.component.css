@@ -1,0 +1,314 @@
+* {
+    background-color: #030302;
+  }
+  .main-container {
+    height: 800px;
+  }
+  .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .b-btn {
+    margin-right: 2em;
+    /* background-color: #151515; */
+    margin: 1em;
+    transition: 0.3s;
+    /* display: flex;
+      justify-content: flex-start;
+      align-items: flex-start; */
+  }
+  .b-btn:hover {
+    transform: scale(1.1);
+  }
+  .txt {
+    flex: 1;
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    margin-top: 1.5em;
+    padding: 1em;
+  }
+  .heading h5 {
+    padding: 16px 0px;
+    color: #ffffff;
+    border-bottom: 1px solid #555555;
+  }
+  .btn-add {
+    border-bottom: 1px solid #555555;
+  }
+  .btn-add button {
+    color: #806959;
+    padding: 16px 0px;
+    transition: 0.3s;
+    background: none;
+    border: none;
+  }
+  .btn-add button:hover {
+    transform: scale(1.1);
+  }
+  
+  .txt2 h5 {
+    padding: 16px 0px;
+    color: #ffffff;
+    border-bottom: 1px solid #555555;
+  }
+  .s-add span {
+    color: #806959;
+  }
+  .box {
+    display: flex;
+  }
+  
+  .second h5 {
+    color: #ffffff;
+    margin: 5px 10px;
+  }
+  .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+  }
+  .first img {
+    width: 30px;
+  }
+  .second span {
+    color: #525252;
+  }
+  
+  .third button {
+    border: 1px solid #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+  .third button:hover {
+    box-shadow: 0 5px 50px 0 #806959 inset, 0 5px 50px 0 #806959,
+      0 5px 50px 0 #806959 inset, 0 5px 50px 0 #806959;
+    transform: scale(1.1);
+    border: 2px solid #ffffff;
+  }
+  
+  .box2 {
+    margin-top: 15px;
+    display: flex;
+    /* background: #151515; */
+    border-bottom: 1px solid #555555;
+  }
+  .save-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .save-btn button {
+    background-color: #806959;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 30%;
+    transform: 0.3s;
+  }
+  .save-btn button:hover {
+    transform: scale(1.1);
+  }
+  .bg-img img {
+    width: 100%;
+    margin-top: 15px;
+  }
+  @media (max-width: 819px) {
+    section {
+      display: none;
+    }
+    .top{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.3em;
+      
+    }
+    .content{
+      margin-top: 0 1.5em;
+      padding: 0 1em;
+    }
+    .b-btn{
+      margin-right: 2em;
+      margin: 0 1em;
+      transition: 0.3s;
+      margin-top: 2em;
+  border: none;
+  transition: .3s;
+    }
+    .save-btn button{
+      margin-top: 1em;
+      transition: .3s;
+    }
+    .save-btn button:hover{
+      transform: scale(1.1);
+    }
+  
+    .txt{
+      flex: 1;
+      color: #ffffff;
+      font-size: 27px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1em;
+    }
+  }
+  
+  @media (min-width: 820px) {
+    .main-container {
+      display: none;
+    }
+    
+    .content1 {
+      display: flex;
+    }
+    .head h2 {
+      padding-top: 3em;
+      margin: 1em;
+      font-family: "Game of Thrones";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0.16em;
+      text-transform: capitalize;
+      color: #ffffff;
+    }
+    .box1 {
+      margin: 1em;
+      border-radius: 20px;
+      border: 1px dashed #ffffff;
+      color: #ffffff;
+      width: 30%;
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      background-color: transparent;
+      height: 250px;
+      text-align: center;
+    }
+    .add-btnn {
+      color: #ffffff;
+      background: transparent;
+      border: none;
+      font-size: 50px;
+      margin-top: 35px;
+      transition: .3s;
+    }
+    .add-btnn:hover{
+      transform: scale(1.1);
+    }
+    .ana {
+      /* display: inline-block; */
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+  
+      color: #ffffff;
+    }
+    .boxx2 {
+      padding: 1em;
+      border: 1px solid #ffffff;
+      border-radius: 20px;
+      width: 30%;
+      margin: 1em;
+    }
+    .first1 {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 15px;
+    }
+    .first1 span {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      background-color: #a49890;
+      color: #ffffff;
+      border-radius: 8px;
+      padding: 2px 12px;
+    }
+    .first1 input {
+      border: 1px solid #806959;
+      background: transparent;
+      color: transparent;
+      cursor: pointer;
+    }
+    #secc2 {
+      margin-top: 10px;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 10px;
+    }
+    .name {
+      margin-bottom: 15px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+    }
+  
+    #secc2 p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      margin: 0;
+  
+      color: #9b9b9b;
+    }
+    .third3 button {
+      margin-top: 15px;
+      margin-right: 10px;
+      color: white;
+      background: transparent;
+      padding: 5px 15px;
+      border-radius: 8px;
+      border: 1.5px solid #806959;
+      transition: 0.3s;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      text-align: center;
+    }
+    .third3 button:hover {
+      background-color: #806959;
+      transform: scale(1.1);
+    }
+    .btn11{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+    .savee{
+      color: white;
+      background: transparent;
+      padding: 5px 100px;
+      border-radius: 8px;
+      border: 1.5px solid #806959;
+      transition: 0.3s;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      text-align: center;
+    }
+    .savee:hover {
+      background-color: #806959;
+      transform: scale(1.1);
+  }
+  }
+  

@@ -1,0 +1,59 @@
+<div id="header">
+
+    <div class="heading" >
+        <div class="right">
+        <img  src="../../../assets/logo2.svg" alt="">
+    </div>
+    <div class="mid">
+        <input type="text" placeholder="Search your favorite dish" />
+    </div>
+    <div class="left">
+        <img routerLink="./menu" class="iconicon" src="/assets/menu-i.svg" alt="" style="cursor: pointer;">
+        <span class="txt">Menu</span>
+        <img routerLink="./cart" class="iconicon" src="/assets/cart-i.svg" alt="" style="cursor: pointer;">
+        <span class="txt">Cart</span>
+        <!-- <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>
+                World TradePark <br>
+                Jaipur
+            </span>
+        </div>  -->
+        <div class="idid">
+            <img routerLink="./editprofile" src="/assets/prfl.svg" alt=""
+            style=" 
+            cursor: pointer;   width: 23%;
+            margin-right: 5px;">
+            <span>Travis Scott</span>
+        </div>
+    </div>
+
+        
+    </div>
+    <div [class]="active ? 'aside active' : 'aside'">
+        <div class="side_header">
+            <img class="back_img" src="../../../assets/profile.svg" alt="">
+            <img class="profile_img" src="https://i.pravatar.cc/300" alt="">
+            <div class="details">
+                <b>John Doe</b>
+                <b >test@gmail.com</b>     
+                <p>+91 9876543210</p>
+                <i routerLink="./editprofile" style="cursor: pointer ;" class="fa-solid fa-pen-to-square"></i>
+            </div>
+            <div class="toggle" (click)="active=!active"><i class="fa-solid fa-bars-staggered"></i></div>
+        </div>
+        <div class="side_cont">
+            <ul>
+                <li routerLink="./orderhistory">Order History</li>
+                <li routerLink="./manageaddes">Manage Address</li>
+                <li routerLink="./menu">Favorites</li>
+                <li routerLink="./offers">Offers</li>
+                <!-- <li>Payment Mode</li> -->
+                
+                <li routerLink="/settings">Settings</li>
+                <li routerLink="/faq">FAQ</li>
+            </ul>
+        </div>
+    </div>
+     
+</div>

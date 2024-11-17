@@ -1,0 +1,1458 @@
+<app-header></app-header>
+<img class="bgbg" src="/assets/dark-surface.png" alt="">
+<section id="menu">
+  <img class="mobilebg" src="assets/mobbg.png" alt="">
+  <div class="buttons">
+    <button (click)="sortOpen =!sortOpen;filterOpen=false">Sort By</button>
+    <button (click)="filterOpen =!filterOpen;sortOpen=false">Filter</button>
+  </div>
+  <mat-tab-group>
+    <mat-tab label="All">
+      <div id="content">
+        <p>ALL DISHES</p>
+        <div class="cnt">
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+           <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+           
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+            <button class="pm" (click)="minus()">-</button>
+            <input type="text" [value]="quantity" />
+            <button class="rm" (click)="plus()">+</button>
+          </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </mat-tab>
+    <mat-tab class="label" label="Popular">
+      <div id="content">
+        <p>ALL DISHES</p>
+        <div class="cnt">
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+            <button class="pm" (click)="minus()">-</button>
+            <input type="text" [value]="quantity" />
+            <button class="rm" (click)="plus()">+</button>
+          </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Special">
+      <div id="content">
+        <p>ALL DISHES</p>
+        <div class="cnt">
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 15px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+            <button class="pm" (click)="minus()">-</button>
+            <input type="text" [value]="quantity" />
+            <button class="rm" (click)="plus()">+</button>
+          </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Breakfast">
+      <div id="content">
+        <p>ALL DISHES</p>
+        <div class="cnt">
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+            <button class="pm" (click)="minus()">-</button>
+            <input type="text" [value]="quantity" />
+            <button class="rm" (click)="plus()">+</button>
+          </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Dessert">
+      <div id="content">
+        <p>ALL DISHES</p>
+        <div class="cnt">
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+            <button class="pm" (click)="minus()">-</button>
+            <input type="text" [value]="quantity" />
+            <button class="rm" (click)="plus()">+</button>
+          </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item_img">
+            <img src="../../../assets/burger.svg" alt="" />
+          </div>
+          <div class="item_info">
+            <p class="ptxt" style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 12px;">
+              Veg Hakka Noodles
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              (200)
+            </div>
+            <b style="    padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 8px;">₹ 23</b>
+            <p
+              style="
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+                color: rgb(189, 189, 189);
+                font-family: 'Lato';
+
+
+              "
+            >
+            chinese,north indian
+            </p>
+          </div>
+          <div class="add_review">
+            <button  id="btnh" class="heart-btn"><i class="fas fa-heart"></i></button>
+            <div class="btn">
+              <button class="pm" (click)="minus()">-</button>
+              <input type="text" [value]="quantity" />
+              <button class="rm" (click)="plus()">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Brunch"> Content 1 </mat-tab>
+  </mat-tab-group>
+  <app-sort-popup @slideUp (closed)="sortOpen=false" *ngIf="sortOpen"></app-sort-popup>
+  <app-filter-popup @slideUp (closed)="filterOpen=false" *ngIf="filterOpen"></app-filter-popup>
+</section>
+<div id="sortBy-modal" uk-modal>
+  <button class="cross">
+    <i class="fas fa-times" uk-toggle="target: #sortBy-modal"></i>
+  </button>
+  <div class="sortBy">
+    <p>SORT BY</p>
+  </div>
+  <div class="filter"><b>Relevance </b><input type="radio" /></div>
+  <div class="filter"><b>rating: high to low </b><input type="radio" /></div>
+  <div class="filter">
+    <b>delivery time: low to high </b><input type="radio" />
+  </div>
+  <div class="filter">
+    <b>delivery time & relevance </b><input type="radio" />
+  </div>
+  <div class="filter"><b>cost: low to high </b><input type="radio" /></div>
+  <div class="filter"><b>cost: high to low </b><input type="radio" /></div>
+  <div class="buttons1">
+    <b>Clear All</b>
+    <button>Apply</button>
+  </div>
+</div>
+

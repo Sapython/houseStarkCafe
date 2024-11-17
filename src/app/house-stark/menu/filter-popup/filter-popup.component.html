@@ -1,0 +1,19 @@
+<div class="sort">
+    <button class="cross" (click)="closed.emit(true)">
+        <i class="fas fa-times"></i>
+    </button>
+    <h3>Filters</h3>
+    <hr>
+    <mat-radio-group>
+        <mat-checkbox value="nachos" color="primary">Nachos</mat-checkbox>
+        <mat-checkbox value="noodles" color="primary">Noodles</mat-checkbox>
+        <mat-checkbox value="munchies" color="primary">Munchies</mat-checkbox>
+        <mat-checkbox value="wrap" color="primary">Wrap</mat-checkbox>
+        <mat-checkbox value="fries" color="primary">Fries</mat-checkbox>
+        <mat-checkbox value="burger" color="primary">Burger</mat-checkbox>
+    </mat-radio-group>
+    <div class="buttonRow">
+        <button>Clear All</button>
+        <button>Apply</button>
+    </div>
+</div>

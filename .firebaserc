@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "maha-jans": {
+      "hosting": {
+        "HouseStark": [
+          "maha-jans"
+        ]
+      }
+    },
+    "house-stark-cafe": {
+      "hosting": {
+        "HouseStark": [
+          "house-stark-cafe"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "house-stark-cafe"
+  }
+}

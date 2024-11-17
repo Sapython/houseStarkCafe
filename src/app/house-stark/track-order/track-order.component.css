@@ -1,0 +1,166 @@
+section {
+    background-color: #030302;
+  }
+  .content {
+    display: flex;
+  }
+  .lcontent {
+    width: 50%;
+    border-right: 1px solid #ffffff;
+  }
+  
+  .rcontent {
+    width: 50%;
+    margin: 1em;
+   padding-left: 2em;
+  }
+  .con {
+    display: flex;
+  }
+  .left img {
+    background-color: transparent;
+  }
+  .lcontent h4 {
+    margin: 1em;
+    font-family: "Game of Thrones";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  
+  .con {
+    margin: 1em;
+  }
+  .con .right {
+    margin-left: 10px;
+  }
+  .con p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #ffffff;
+    margin: 0;
+  }
+  .con span {
+    margin: 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    /* line-height: 34px; */
+    color: #ffffff;
+  }
+  .heading p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+  .heading span {
+    color: #62aa88;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .box {
+    display: flex;
+  }
+  .r p {
+    margin: 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .clr p {
+    color: #806959;
+  }
+  .r button {
+    padding: 0;
+    background: none;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration-line: underline;
+    color: #806959;
+  }
+  .box1 {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    width: 70%;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  .top h4 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    color: #ffffff;
+    border-bottom: 1px solid #555555;
+  }
+  .midd {
+    border-bottom: 1px dashed #555555;
+  }
+  .line {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .line p {
+    margin: 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.45);
+  }
+  .line span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.45);
+  }
+  .g p {
+    color: #0cbc87;
+  }
+  .g span {
+    color: #0cbc87;
+  }
+  .end {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .end span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  
+    color: #ffffff;
+  }
+  .sec9 p {
+    margin: 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.56);
+  }
+  

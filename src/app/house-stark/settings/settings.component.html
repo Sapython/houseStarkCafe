@@ -1,0 +1,138 @@
+<app-header></app-header>
+<img class="mobilebg" src="assets/mobbg.png" alt="" />
+<section id="mobile">
+  <div class="top">
+    <button class="btn-btn" routerLink="./">
+      <img src="/assets/back.svg" alt="" />
+    </button>
+    <div class="top1">
+      <h2>SETTING</h2>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button routerLink="./editprofile"><i class="fa-regular fa-user"></i>Edit Profile</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button><i class="fa-regular fa-bell"></i>NOTIFICATION
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button routerLink="./resetpassword"><i class="fa-solid fa-arrow-rotate-left"></i>RESET PASSWORD</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button><i class="fa-solid fa-user-slash"></i>DELETE USER DATA</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button routerLink="./changenum"><i class="fa-solid fa-square-phone"></i>CHANGE PHONE NUMBER</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button><i class="fa-solid fa-file-shield"></i>PRIVACY POLICY</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button><i class="fa-solid fa-scroll"></i>LEGAL PAGES</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button routerLink="./faq"><i class="fa-solid fa-circle-question"></i>FAQ</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="btn">
+        
+        <button mat-raised-button (click)="logOut()"><i class="fa-solid fa-arrow-right-from-bracket"></i>LOGOUT</button>
+    </div>
+  </div>
+  
+  </section>
+
+<!-- -----------------DESKTOP-------------------- -->
+
+
+  <section id="desktop">
+    
+      
+      <div class="side_cont">
+          <ul>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button routerLink="./editprofile"><i class="fa-regular fa-user"></i>Edit Profile</button>
+              </div>
+            </div>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button><i class="fa-regular fa-bell"></i>NOTIFICATION
+                    <label class="switch">
+                      <input type="checkbox" checked>
+                      <span class="slider"></span>
+                    </label>
+                  </button>
+              </div>
+            </div>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button routerLink="./resetpassword"><i class="fa-solid fa-arrow-rotate-left"></i>RESET PASSWORD</button>
+              </div>
+            </div>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button><i class="fa-solid fa-user-slash"></i>DELETE USER DATA</button>
+              </div>
+            </div>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button routerLink="./changenum"><i class="fa-solid fa-square-phone"></i>CHANGE PHONE NUMBER</button>
+              </div>
+            </div>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button><i class="fa-solid fa-file-shield"></i>PRIVACY POLICY</button>
+              </div>
+            </div>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button><i class="fa-solid fa-scroll"></i>LEGAL PAGES</button>
+              </div>
+            </div>
+            <div class="content">
+              <div class="btn">
+                  
+                  <button routerLink="./faq"><i class="fa-solid fa-circle-question"></i>FAQ</button>
+              </div>
+            </div>
+          </ul>
+      </div>
+  
+  </section>

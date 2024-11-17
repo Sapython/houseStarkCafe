@@ -1,0 +1,30 @@
+/* *{
+    background: linear-gradient(170.54deg, #676464 0%, #131111 110.89%);
+border-radius: 12px;
+} */
+:host {
+    display: block;
+    background: linear-gradient(170.54deg, #676464 0%, #131111 110.89%);
+    border-radius: 12px;
+    border-radius: 8px;
+    
+  }
+.first{
+    display: flex;
+    justify-content: center;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+}
+.txt1{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 1em;
+}
+mat-dialog-container{
+    background: linear-gradient(170.54deg, #676464 0%, #131111 110.89%);
+border-radius: 12px;
+}
